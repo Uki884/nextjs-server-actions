@@ -22,6 +22,7 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "recoil": "^0.7.7",
+    "sass": "^1.69.5",
     "tsconfig-paths": "^4.2.0"
   },
   "devDependencies": {

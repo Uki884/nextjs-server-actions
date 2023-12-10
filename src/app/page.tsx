@@ -1,9 +1,11 @@
-import { getData } from "@/actions";
+import Link from "next/link";
 
-export default async function Home() {
-  // Server Actions経由でのデータ取得
-  const result = await getData();
-  console.log("result", result);
-
-  return <div>{result.data}</div>;
+export default function Home() {
+  return (
+    <>
+      <Link href={"/server"}>server component</Link>
+      <br />
+      <Link href={"/client"}>client component</Link>
+    </>
+  );
 }
